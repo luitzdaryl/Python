@@ -7,7 +7,7 @@ def get_day_of_week(year, month, day):
     # Convert the integer to the corresponding day name
     day_name = calendar.day_name[day_of_week]
     
-    return day_name
+    return day_name.upper()
 
 if __name__ == '__main__':
     # Read input values for year, month, and day
